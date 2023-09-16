@@ -1,0 +1,604 @@
+@media only screen and (max-width:1350px) , (max-width:78.125rem) {
+    .splide__arrow--next{
+        right: -3.5em !important;
+    }
+    .splide__arrow--prev{
+        left: -3.5em !important;
+    }
+}
+
+@media only screen and (max-width:1023px) , (max-width:78.125rem){
+    .splide__arrow--next{
+        right: -3em !important;
+    }
+    .splide__arrow--prev{
+        left: -3em !important;
+    }
+}
+
+@media only screen and (max-width:865px) , (max-width:78.125rem){
+    .splide__arrow--next{
+        right: -2.7em !important;
+    }
+    .splide__arrow--prev{
+        left: -2.7em !important;
+    }
+}
+
+
+
+@media only screen and (max-width:1250px) , (max-width:78.125rem) {
+    :root{
+        --fs-50:0.850rem;
+        --fs-100:0.9rem;
+        --fs-200:1rem;
+        --fs-300:1.6rem;
+        --fs-400:1.9rem;
+        --fs-500:2.4rem;
+        --fs-600:2.9rem;
+        --fs-700:3.4rem;
+        --fs-800:3.9rem;
+    }
+
+
+    .info{
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width:1186px){
+    :root{
+        --fs-50:0.850rem;
+        --fs-100:0.85rem;
+        --fs-200:1rem;
+        --fs-300:1.6rem;
+        --fs-400:1.9rem;
+        --fs-500:2.4rem;
+        --fs-600:2.7rem;
+        --fs-700:3.4rem;
+        --fs-800:3.5rem;
+    }
+    .btn-price{
+        padding:0.3rem 2.9rem;
+    }
+    .btn-price:hover{
+        padding:0.2rem 2.8rem ;
+    }
+}
+
+@media only screen and (max-width:1099px){
+    .btn-price{
+        padding:0.3rem 2rem;
+    }
+    .btn-price:hover{
+        padding:0.2rem 1.9rem ;
+    }
+}
+
+@media only screen and (max-width:976px){
+    .btn-price{
+        padding:0.3rem .75rem;
+    }
+
+    .btn-price:hover{
+        padding:0.2rem .50rem ;
+    }
+}
+
+@media only screen and (max-width:1157px) {
+
+    :root{
+        --fs-50:0.825rem;
+        --fs-100:0.825rem;
+        --fs-200:.975rem;
+        --fs-300:1.575rem;
+        --fs-400:1.875rem;
+        --fs-500:2.375rem;
+        --fs-600:2.65rem;
+        --fs-700:3.375rem;
+        --fs-800:3.4rem;
+    }
+    .info{
+        
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width:1066px){
+    :root{
+        --fs-50:0.8rem;
+        --fs-100:0.8rem;
+        --fs-200:.95rem;
+        --fs-300:1.55rem;
+        --fs-400:1.85rem;
+        --fs-500:2.35rem;
+        --fs-600:2.6rem;
+        --fs-700:3.35rem;
+        --fs-800:3.3rem;
+    }
+    .info{
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:1012px){
+    :root{
+        --fs-50:0.775rem;
+        --fs-100:0.775rem;
+        --fs-200:.95rem;
+        --fs-300:1.55rem;
+        --fs-400:1.85rem;
+        --fs-500:2.35rem;
+        --fs-600:2.55rem;
+        --fs-700:3.35rem;
+        --fs-800:3.2rem;
+    }
+
+    .info{
+
+        gap: 23px;
+    }
+}
+
+@media only screen and(max-width:964px) , (max-width:60.25em) {
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:1.525rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.5rem;
+        --fs-700:3.350rem;
+        --fs-800:3.1rem;
+    }
+
+    .info{
+
+       gap: 15px;
+    }
+}
+
+@media only screen and(max-width:925px) , (max-width:57.813em){
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:1.525rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.45rem;
+        --fs-700:3.350rem;
+        --fs-800:3rem;
+    }
+
+}
+
+@media only screen and(max-width:896px) , (max-width:56em){
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:1.4rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.45rem;
+        --fs-700:3.350rem;
+        --fs-800:3rem;
+    }
+
+    .imgdoc,
+    .femaleimg{
+        display: none;
+    }
+
+    .first-section-img-text{
+        padding-block: 4rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .btn-blue{
+        align-self: center;
+    }
+
+    .second-section-text{
+        width:auto;
+        padding-block: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Numbers-data img{
+        width: 50px;
+    }
+
+    .info{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media only screen and(max-width:873px) , (max-width:54.563em){
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:1.2rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.3rem;
+        --fs-700:3.350rem;
+        --fs-800:2.4rem;
+    }
+
+}
+
+
+@media only screen and (max-width:750px) , (max-width:46.875em){
+
+    .logo-img{
+        width: 9%;
+    }
+
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:1.2rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.3rem;
+        --fs-700:3.350rem;
+        --fs-800:2.4rem;
+        --fw-bold:700;  
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-auto-rows: auto;
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .hidden{
+        display: none;
+    }
+    .shown{
+        display: block;
+    }
+
+    .nav-menu.shown{
+        margin-block: 0;
+        top: 80%;
+        width: 100%;
+        position: absolute;
+        list-style-type: none;
+        background-color: white;
+        border-radius: 6px;
+        padding-block: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem !important;
+        z-index: 900000000;
+        box-shadow: 0px 100px 700px 15px rgba(0, 0, 0,0.8);
+        transition: 300ms all;
+       
+    }
+
+    .nav-menu.shown a{
+        color: var(--clr-black);
+        font-weight: var(--fw-bold);
+        
+    }
+
+    .btn-close{
+        transition: 300ms all;
+        display: none;
+    }
+    .btn-close.shown{
+        transition: 300ms all;
+        display: block;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+    .btn-nav{
+        display: none;
+    }
+
+    .btn-toggle{
+        transition: 300ms all;
+        display: block;
+    }
+
+    .btn-toggle.hidden{
+        transition: 300ms all;
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) , (max-width:37.5em) {
+
+    .logo-img{
+        width: 9.5%;
+    }
+
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.925rem;
+        --fs-300:0.5rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.3rem;
+        --fs-700:3.350rem;
+        --fs-800:2rem;
+        --fw-bold:700;  
+    }
+
+    .info{
+        margin-top:25px;
+    }
+
+    .doctors-info{
+        padding: 1rem 2.5rem;
+        gap: 1rem;
+    }
+
+    .custom{
+        gap: 2rem;
+    }
+
+    .img-text{
+        gap: 1rem;
+    }
+
+    .doctors-info img{
+        width: 40%;
+    }
+
+    
+}
+
+@media only screen and(max-width:688px) , (max-width:43em){
+
+    .logo-img{
+        width: 10%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.875rem;
+        --fs-300:0.5rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:2.075rem;
+        --fs-700:2rem;
+        --fs-800:2rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:669px) , (max-width:43.6875em){
+    .logo-img{
+        width: 10.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.8rem;
+        --fs-300:1.1rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.975rem;
+        --fs-700:2rem;
+        --fs-800:2rem;
+        --fw-bold:700;  
+    }
+}
+
+@media only screen and(max-width:612px) , (max-width:41.8125em){
+    .logo-img{
+        width: 11%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.775rem;
+        --fs-300:1.075rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.875rem;
+        --fs-700:3.350rem;
+        --fs-800:1.9rem;
+        --fw-bold:700;  
+    }
+}
+
+
+@media only screen and(max-width:582px) , (max-width:36.375em){
+    .logo-img{
+        width: 11.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.770rem;
+        --fs-300:1.050rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.775rem;
+        --fs-700:3.350rem;
+        --fs-800:1.8rem;
+        --fw-bold:700;  
+    }
+}
+
+@media only screen and(max-width:553px) , (max-width:34.5625em){
+    .logo-img{
+        width: 12%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.765rem;
+        --fs-300:1.025rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.675rem;
+        --fs-700:3.350rem;
+        --fs-800:1.7rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:524px) , (max-width:32.75em){
+    .logo-img{
+        width: 12.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.760rem;
+        --fs-300:1rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.575rem;
+        --fs-700:3.350rem;
+        --fs-800:1.6rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:494px) , (max-width:30.875em){
+    .logo-img{
+        width: 13%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.750rem;
+        --fs-300:.975rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.475rem;
+        --fs-700:3.350rem;
+        --fs-800:1.5rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:466px) , (max-width:29.125em){
+    .logo-img{
+        width: 13.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.740rem;
+        --fs-300:.950rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.475rem;
+        --fs-700:3.350rem;
+        --fs-800:1.5rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:436px) , (max-width:27.25em){
+    .logo-img{
+        width: 14%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.730rem;
+        --fs-300:0.925rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.375rem;
+        --fs-700:3.350rem;
+        --fs-800:1.4rem;
+        --fw-bold:700;  
+    }
+}
+
+@media only screen and(max-width:408px) , (max-width:25.5em){
+    .logo-img{
+        width: 14.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.720rem;
+        --fs-300:0.9rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.275rem;
+        --fs-700:1.4rem;
+        --fs-800:1.3rem;
+        --fw-bold:700;  
+    }
+}
+
+
+
+@media only screen and(max-width:390px) , (max-width:24.375em){
+    .logo-img{
+        width: 14.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.710rem;
+        --fs-300:.875rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.250rem;
+        --fs-700:1.4rem;
+        --fs-800:1.275rem;
+        --fw-bold:700;  
+    }
+}
+
+
+@media only screen and(max-width:371px) , (max-width:24.375em){
+    .logo-img{
+        width: 14.5%;
+    }
+    :root{
+        --fs-50:0.75rem;
+        --fs-100:0.75rem;
+        --fs-200:.7rem;
+        --fs-300:.850rem;
+        --fs-400:1.850rem;
+        --fs-500:2.350rem;
+        --fs-600:1.2rem;
+        --fs-700:3.350rem;
+        --fs-800:1.25rem;
+        --fw-bold:700;  
+    }
+}

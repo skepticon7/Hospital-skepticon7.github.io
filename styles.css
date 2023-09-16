@@ -1,0 +1,522 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+h1,h2,h3,h4,p{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3{
+    line-height: 1.05;
+}
+
+:root{
+    --clr-blue:#0174CF;
+    --clr-black:hsl(228, 39%, 23%);
+    --clr-white:white;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-bold:700;  
+    
+    --fs-50:0.875rem;
+    --fs-100:0.95rem;
+    --fs-200:1.1rem;
+    --fs-300:1.7rem;
+    --fs-400:2rem;
+    --fs-500:2.5rem;
+    --fs-600:3rem;
+    --fs-700:3.5rem;
+    --fs-800:4rem
+
+}
+
+
+/* usable classes */
+
+.fs-50{
+    font-size: var(--fs-50);
+}
+
+.fs-100{
+    font-size: var(--fs-100)
+}
+.fs-200{
+    font-size: var(--fs-200);
+}
+.fs-300{
+    font-size: var(--fs-300);
+}
+.fs-400{
+    font-size: var(--fs-400);
+}
+.fs-500{
+    font-size: var(--fs-500);
+}
+.fs-600{
+    font-size: var(--fs-600);
+}
+.fs-700{
+    font-size: var(--fs-700);
+}
+.fs-800{
+    font-size: var(--fs-800);
+}
+
+ul{
+ list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-color-blue{
+    color: var(--clr-blue);
+}
+
+
+.text-color-black{
+    color: var(--clr-black);
+}
+
+
+.text-color-white{
+    color: var(--clr-white);
+}
+
+.text-regular{
+    font-weight: var(--fw-regular);
+}
+
+.text-medium{
+    font-weight: var(--fw-medium);
+}
+
+.text-bold{
+    font-weight: var(--fw-bold);
+}
+
+.background-color-blue{
+    background-color: var(--clr-blue);
+}
+
+.background-color-white{
+    background-color: var(--clr-white);
+}
+
+.background-color-black{
+    background-color: black;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    padding: 0.4rem 1rem;
+}
+
+.btn-blue{
+    transition: background-color 0.4s , color 0.4s ; 
+}
+
+.btn-blue:hover,
+.btn-blue:focus-visible{
+    transition: background-color 0.4s , color 0.4s ; 
+    background-color: var(--clr-white);
+    color: var(--clr-blue);
+}
+
+.btn-signup{
+    transition: background-color 0.4s , color 0.4s ; 
+}
+
+.btn-signup:hover,
+.btn-signup:focus-visible{
+    transition: background-color 0.4s , color 0.4s ; 
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+}
+
+.btn-blackborder{
+    transition: background-color 0.4s , color 0.4s ; 
+}
+
+.btn-blackborder:hover,
+.btn-blackborder:focus-visible{
+    border: 2px solid var(--clr-black);
+    transition: background-color 0.4s , color 0.4s ; 
+    background-color: transparent;
+    color: var(--clr-blue);
+}
+
+.first-section{
+    background-image: url("surgery.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.container{
+    width: min(90% , 75.5em);
+    margin-inline: auto;
+   
+}
+
+.align-center{
+    text-align: center;
+}
+
+/* general styling */
+
+.nav-menu a{
+    transition: color 0.3s;
+}
+.nav-menu a:hover,
+.nav-menu a:focus-visible{
+    transition: color 0.3s;
+    color: var(--clr-blue);
+}
+
+.btn-login{
+    padding-inline: 1.3rem ;
+}
+
+.btn-toggle,
+.btn-close{
+    display: none;
+}
+
+.nav{
+    position: relative;
+    padding-block: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
+}
+
+.btn-nav{
+    display: flex;
+    gap: 1rem;
+}
+
+.first-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+}
+
+.first-section-img-text{
+    padding-block-start: 3rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+
+
+.imgdoc{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items:flex-end;
+}
+
+.imgdoc img{
+    margin-left: auto;
+    width: 70%;
+}
+
+.second-section{
+    display: flex;
+    gap: 0px;
+    position: relative;
+}
+
+.femaleimg{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+.femaleimg img{
+  
+    max-width: 100%;
+}
+
+
+.second-section-text{
+   width: 50%;
+    padding-block: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Numbers-data{
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+.Numbers-data img{
+    width: 13%;
+}
+
+.third-section{
+    padding-block-start: 2.5rem;
+    padding-block-end:5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.doctors{
+width: 100%;
+    
+}
+
+.doctors-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width:100%;
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+
+.doctors-info img{
+    width: 60%;
+}
+
+.info{
+   
+    margin-top: 50px;
+    display: flex;
+
+    gap: 50px;
+}
+
+.img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+.custom{
+    
+    display: flex;
+
+}
+
+
+
+
+
+.fourth-section-background{
+    background-image: url("Pricing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    padding-block-start: 2.5rem;
+    padding-block-end:4.5rem;
+    gap: 2.5rem;
+}
+
+.price-types{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-info{
+
+    transition: transform 0.3s , filter 0.3s;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 1.5rem   1.5rem 1.2rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+hr{
+    margin: 0;
+    border: 0.5px solid black;
+    opacity: 50%;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-vector-text{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.btn-price{
+    transition: background-color 0.3s , color 0.3s;
+    margin-top: auto;
+    align-self: center;
+    border: none;
+    padding:0.3rem 3.5rem;
+    border-radius: 25px;
+
+}
+
+.btn-price:hover,
+.btn-price:focus-visible{
+    padding:0.2rem 3.4rem;
+    border-radius: 25px;
+    transition: background-color 0.3s , color 0.3s;
+    background-color: transparent;
+    color: var(--clr-blue);
+    border: 2px solid black;
+}
+
+
+/* .price-types:hover .price-info:not(:hover){
+    filter: blur(2px);
+}
+
+.price-info:hover,
+.price-info:focus-visible{
+    transform: scale(1.1);
+    filter: none;
+} */
+
+
+/* .blureffect-parent:hover .blureffect-child:not(:hover){
+    transition: transform 0.3s , filter 0.3s;
+    filter: blur(2px);
+}
+
+.blureffect-child {
+    transition: transform 0.3s , filter 0.3s;
+    
+}
+
+.blureffect-child:hover,
+.blureffect-child:focus-visible{
+    transition: transform 0.3s , filter 0.3s;
+    transform: scale(1.1);
+    filter: none;
+} */
+
+.fifth-section{
+    padding-block: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn-contact {
+    padding: 0.4rem 1rem;
+    transition: background-color 0.3s , color 0.3s;
+}
+
+.btn-contact:hover,
+.btn-contact:focus-visible{
+    padding: 0.25rem 0.9rem;
+    transition: background-color 0.3s , color 0.3s;
+    background-color: transparent;
+    color: var(--clr-blue);
+    border: 0.15rem solid black;
+}
+
+.footer-section{
+    padding-block: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.links a:hover,
+.links a:focus-visible{
+    color: var(--clr-white);
+    text-decoration: underline;
+}
+
+.footer-socials{
+   display: flex;
+ 
+}
+
+.footer-socials img{
+    transition: transform 0.3s;
+    width: 70%;
+}
+
+.footer-socials img:hover ,
+.footer-socials img:focus-visible{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.align-left{
+    text-align: left;
+}
+
+.opacity{
+    opacity: 90%;
+}
+
+.copyright-section{
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+}
